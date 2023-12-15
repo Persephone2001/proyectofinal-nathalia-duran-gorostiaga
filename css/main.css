@@ -1,0 +1,409 @@
+.item-1 {
+  background-color: #DAF7A6;
+}
+
+.item-2 {
+  background-color: #DAF7A6;
+}
+
+.item-3 {
+  background-color: #F0B8B8;
+}
+
+.item-4 {
+  background-color: #F0B8B8;
+}
+
+.item-5 {
+  background-color: #B8F0D4;
+}
+
+.item-6 {
+  background-color: #B8F0D4;
+}
+
+/*GRIDS*/
+.grid-container-quienes-somos {
+  display: grid;
+  grid-area: "item-1 item-2" "item-3 item-4" "item-5 item-6";
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 200px 200px 200px;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item-1 {
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.item-3 {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.item-5 {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.grid-container-tallercurso {
+  display: grid;
+  grid-area: "item1tc item2tc" "item3tc item4tc" "item5tc item6tc";
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 290px 290px 290px;
+}
+
+/*Clases de header*/
+.header_container {
+  text-align: center;
+  background-color: rgb(191, 142, 236);
+}
+
+.img-logo {
+  width: 20%;
+  height: 20%;
+}
+
+header {
+  background-color: rgb(191, 142, 236);
+}
+
+/*Main-General*/
+.container-main {
+  padding-bottom: 15px;
+}
+
+/*Main-Inicio*/
+.w3-input {
+  width: -webkit-fill-available;
+}
+
+.card {
+  display: block;
+  align-self: center;
+  justify-self: center;
+}
+
+/*IMAGENES*/
+/*img  inicio*/
+.card-img-top {
+  width: 254px;
+  height: 381;
+}
+
+/*img productos*/
+.cupcake {
+  width: 200px;
+  height: 210px;
+  width: 200px;
+  height: 210px;
+}
+
+.mooncake {
+  width: 200px;
+  height: 210px;
+}
+
+.roll {
+  width: 200px;
+  height: 210px;
+}
+
+.tartaroja {
+  width: 200px;
+  height: 210px;
+}
+
+.galletas {
+  width: 200px;
+  height: 210px;
+}
+
+.scones {
+  width: 200px;
+  height: 210px;
+}
+
+.img-productos {
+  width: 100%;
+  height: 100%;
+}
+
+.img-banner {
+  width: 100%;
+  height: 420px;
+}
+
+/*principal productos*/
+.card1 {
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card2 {
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card3 {
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card4 {
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card5 {
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card6 {
+  flex-direction: column;
+  padding: 10px;
+}
+
+/*principal packs*/
+.carousel-item {
+  width: 150px;
+  height: 550px;
+}
+
+.d-block {
+  object-fit: cover;
+}
+
+.carousel {
+  padding-bottom: 15px;
+}
+
+/*FOOTER*/
+.footer-container {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.container-redes {
+  display: inline-block;
+}
+.container-redes :hover {
+  opacity: 0, 7;
+}
+
+.fa-brands {
+  padding-left: 15px;
+}
+
+.fa-solid {
+  padding-left: 15px;
+}
+
+a {
+  color: black;
+}
+
+i {
+  font-size: 35px;
+}
+
+/*color footer*/
+footer {
+  background-color: rgb(191, 142, 236);
+}
+
+/*MEDIA QUERIES*/
+@media (min-width: 761px) and (max-width: 1200px) {
+  .img-banner {
+    height: 400px;
+  }
+  .grid-container-quienes-somos {
+    display: grid;
+    grid-area: "item-1 item-2" "item-3 item-4" "item-5 item-6";
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 200px 200px 200px;
+  }
+  .item-1 {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .item-3 {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .item-5 {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .grid-container-tallercurso {
+    display: grid;
+    grid-area: "item1tc item2tc" "item3tc item4tc" "item5tc item6tc";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 290px 290px 290px;
+  }
+}
+@media (min-width: 481px) and (max-width: 760px) {
+  .img-banner {
+    height: 320px;
+  }
+  .grid-container-quienes-somos {
+    display: grid;
+    grid-area: "item-1 item-2" "item-3 item-4" "item-5 item-6";
+    grid-template-columns: 1.2fr 3fr;
+    grid-template-rows: 370px 370px 370px;
+  }
+  .item-1 {
+    width: 100%;
+    height: 65%;
+    display: block;
+    align-self: center;
+    justify-self: center;
+  }
+  .item-3 {
+    width: 100%;
+    height: 65%;
+    display: block;
+    align-self: center;
+    justify-self: center;
+  }
+  .item-5 {
+    width: 100%;
+    height: 65%;
+    display: block;
+    align-self: center;
+    justify-self: center;
+  }
+  .grid-container-tallercurso {
+    display: grid;
+    grid-area: "item1tc item2tc" "item3tc item4tc" "item5tc item6tc";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 290px 290px 290px;
+  }
+  .item-1tc {
+    width: 200px;
+    height: 200px;
+  }
+  .item-3tc {
+    width: 200px;
+    height: 200px;
+  }
+  .item-5tc {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .img-banner {
+    height: 200px;
+  }
+  .grid-container-quienes-somos {
+    display: grid;
+    grid-area: "item-1" "item-2" "item-3" "item-4" "item-5" "item-6";
+    grid-template-columns: 100%;
+    grid-template-rows: 200px 350px 200px 350px 200px 350px;
+  }
+  .item-1 {
+    width: 80%;
+    height: 100%;
+    display: block;
+    align-self: center;
+    justify-self: center;
+  }
+  .item-3 {
+    width: 80%;
+    height: 100%;
+    display: block;
+    align-self: center;
+    justify-self: center;
+  }
+  .item-5 {
+    width: 80%;
+    height: 100%;
+    display: block;
+    align-self: center;
+    justify-self: center;
+  }
+  .grid-container-tallercurso {
+    display: grid;
+    grid-area: "item1tc" "item2tc" "item4tc" "item3tc" "item5tc" "item6tc";
+    grid-template-columns: 100%;
+    grid-template-rows: 290px 230px 290px 230px 290px 230px;
+  }
+}
+/*Estilos de Texto*/
+h1 {
+  color: black;
+  font-size: 35px;
+  font-style: normal;
+  font-family: "Ubuntu Mono", monospace;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+h2 {
+  color: black;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "Ubuntu Mono", monospace;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+h3 {
+  color: black;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+p {
+  color: rgb(97, 4, 97);
+  font-size: 15px;
+  font-style: normal;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+/*Lista*/
+ul {
+  list-style-type: none;
+}
+
+body {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/*# sourceMappingURL=main.css.map */

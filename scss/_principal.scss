@@ -1,0 +1,95 @@
+/*Main-General*/
+.container-main{
+    padding-bottom: 15px;
+}
+
+/*Main-Inicio*/
+.w3-input {
+    width: -webkit-fill-available;
+}
+
+.card{
+    display: block;
+    align-self: center;
+    justify-self: center;
+}
+
+
+/*IMAGENES*/
+/*img  inicio*/
+.card-img-top{
+    @include sizes (254px ,381)
+   
+}
+
+/*img productos*/
+
+.cupcake{
+    width: 200px;
+    height: 210px;
+    @include sizes (200px,210px)
+}
+.mooncake{
+    @include sizes (200px,210px)
+}
+.roll{
+    @include sizes (200px,210px)
+}
+.tartaroja{
+    @include sizes (200px,210px)
+    }
+.galletas{
+    @include sizes (200px,210px)
+}
+.scones{
+    @include sizes (200px,210px)
+}
+.img-productos{
+    @include sizes (100%,100%)
+}
+.img-banner{
+    @include sizes (100%,420px)
+    
+}
+
+/*principal productos*/
+.card1{
+    flex-direction: column;
+    padding: 10px;
+;
+    
+}
+.card2{
+    flex-direction: column;
+    padding: 10px;
+}
+.card3{
+    flex-direction: column;
+    padding: 10px;
+}
+
+.card4{
+    flex-direction: column;
+    padding: 10px;
+}
+.card5{
+    flex-direction: column;
+    padding: 10px;
+}
+.card6{
+    flex-direction: column;
+    padding: 10px;
+}
+
+/*principal packs*/
+.carousel-item{
+    @include sizes (150px,550px)
+}
+
+.d-block{
+    object-fit: cover;
+}
+
+.carousel{
+    padding-bottom: 15px;
+}

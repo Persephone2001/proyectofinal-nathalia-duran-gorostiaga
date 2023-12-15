@@ -1,0 +1,25 @@
+$map: (
+    lilaclaro: #BF8EEC,
+    lilafondo:#EBDEF0,
+    limon: #DAF7A6,
+    salmon: #F0B8B8,
+    cielo:  #B8F0D4,
+);
+.item-1{
+    background-color:map-get($map: $map, $key:limon);
+}
+.item-2{
+    background-color: map-get($map: $map, $key: limon);
+}
+.item-3{
+    background-color:map-get($map: $map, $key: salmon);
+}
+.item-4{
+    background-color:map-get($map: $map, $key: salmon);
+}
+.item-5{
+    background-color:map-get($map: $map, $key: cielo);
+}
+.item-6{
+    background-color:map-get($map: $map, $key: cielo);
+}

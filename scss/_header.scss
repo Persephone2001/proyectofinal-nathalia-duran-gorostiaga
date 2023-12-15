@@ -1,0 +1,15 @@
+/*Clases de header*/
+.header_container{
+    text-align: center;
+    background-color:rgb(191, 142, 236) ;
+}
+
+.img-logo{
+    @include sizes (20%,20%);
+    
+}
+
+header{ 
+    background-color:rgb(191, 142, 236);
+}
+
